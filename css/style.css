@@ -88,10 +88,6 @@ p {
     object-fit: cover;
 }
 
-.nav_left .hambarger i {
-    display: none;
-}
-
 .nav_right {
     margin-right: 50px;
 }
