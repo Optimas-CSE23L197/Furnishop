@@ -1,0 +1,83 @@
+.menu-2{
+    background: #0A1449;
+}
+nav ul li a{
+  color: #D7DBEC;
+  font-size: 18px;
+  font-weight: 400;
+}
+#navbarTogglerDemo02 .row{
+  width: 100%;
+}
+nav ul li a:hover{
+  color: #fff;
+}
+#navbarTogglerDemo02 .navbar-nav{
+  justify-content: space-between;
+}
+nav img{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    right: auto;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    transform: translateX(-50%);
+} 
+header .navbar{
+    padding: 1rem 1rem;
+}
+.menu-1 ul{
+  float: left;
+  display: flex;
+}
+.menu-1 button[name='login']{
+  background-color: transparent;
+  outline: none;
+}
+.menu-1 button[name='logup'] {
+    background-color: transparent;
+    outline: none;
+}
+.menu-1 button[type='submit']{
+    background-color: #EC7017;
+    padding: 10px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.menu-1 ul li{
+    padding-left: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #919191;
+    padding-top: 10px;
+    color: #626261;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu-1 ul li:last-child{
+  border-right: none;
+}
+.menu-1 {
+    padding-top: 10px;
+}
+.menu-one-right{
+    text-align: right;
+}
+.menu-one-right i{
+  padding:0px 20px;
+  border-right: 1px solid #919191;
+  font-size: 20px;
+}
+i.fa.fa-user {
+    border-right: none;
+}
+.active a{
+  font-weight: bolder;
+  color: #fff;
+}
